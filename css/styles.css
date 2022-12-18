@@ -119,6 +119,11 @@ body {
   cursor: pointer;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
 /*------------section 2 FUNCIOINAL */
 
 /* .functional {
