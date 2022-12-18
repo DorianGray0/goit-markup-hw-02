@@ -117,11 +117,7 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--first-background-color);
-}
-
-.btn:hover,
-.btn:focus {
-  color: var(--color-accent);
+  background-color: var(--color-accent);
   cursor: pointer;
 }
 
@@ -211,7 +207,56 @@ body {
 } */
 
 .footer-text {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-fon-imagen);
 }
+
+/* -------PORTFOLIO */
+
+/* .services-list {
+} */
+
+.services-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+}
+
+/* .button {
+} */
+
+.button:hover {
+  color: var(--first-background-color);
+  background-color: var(--color-accent);
+  cursor: pointer;
+}
+
+/* .option-list {
+} */
+
+/* .option-item {
+} */
+
+/* .option-link {
+} */
+
+.option-subject {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-headings);
+}
+
+.option-text {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:var(--color-text)
