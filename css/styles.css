@@ -1,3 +1,17 @@
+:root {
+  --color-accent: #4d5ae5;
+  --color-headings: #2e2f42;
+  /* --color-text: #434455; */
+  --first-background-color: #ffffff;
+  --second-background-color: #f4f4fd;
+  --color-fon-imagen: #e7e9fc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -9,4 +23,23 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* ----------------HEADER */
+
+.navigation {
+}
+.logo {
+}
+.navigation-list {
+}
+.navigation-item {
+}
+.navigation-link {
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-link {
 }
