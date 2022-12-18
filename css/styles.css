@@ -183,9 +183,8 @@ body {
   color: var(--color-headings);
 }
 
-.team-list {
-  background-color: var(--first-background-color);
-}
+/* .team-list {
+} */
 
 .team-subject {
   font-size: 20px;
@@ -193,6 +192,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-headings);
+  background-color: var(--first-background-color);
 }
 
 .team-text {
@@ -200,6 +200,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-text);
+  background-color: var(--first-background-color);
 }
 
 /*  ---------FOOTER */
