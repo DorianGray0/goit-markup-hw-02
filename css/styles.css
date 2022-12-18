@@ -178,8 +178,9 @@ body {
   color: var(--color-headings);
 }
 
-/* .team-list {
-} */
+.team-list {
+  background-color: var(--first-background-color);
+}
 
 .team-subject {
   font-size: 20px;
@@ -256,4 +257,5 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--color-text)
+  color: var(--color-text);
+}
